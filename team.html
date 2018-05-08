@@ -71,6 +71,7 @@ text.inner-circle {
         </button>
       <div class="collapse navbar-collapse" id="navbarResponsive"></div>
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="beranda.html">Teras</a></li>
         <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
         <li class="nav-item"><a class="nav-link" href="portofolio.html">Portofolio</a></li>
         <li class="nav-item"><a class="nav-link" href="kontak.html">Call HWG</a></li>
@@ -80,108 +81,51 @@ text.inner-circle {
 
     <div class="container">
 
-      <h1 class="mt-4 mb-3">Call me HWG !!
+      <h1 class="mt-4 mb-3">Team
       </h1>
 
       <div class="row">
-        <div class="col-lg-8 mb-4">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.583974725427!2d112.77426361477502!3d-7.288083294739705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa464a295825%3A0xcbd0ca64b3663a75!2sUniversitas+Narotama!5e0!3m2!1sid!2sid!4v1525791919561" width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="col-lg-6">
+          <center> <img class="img-fluid rounded mb-4" src="logo.png" width="300px" alt=""></center>
         </div>
-
-           <!-- <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe> -->
-        <div class="col-lg-4 mb-4">
-          <h3>Our Workspace</h3>
-          <p>
-            JL. Arif Rahman Hakim
-            <br>Surabaya, Indonesia
-            <br>
-          </p>
-          <p>
-            <abbr title="Phone">P</abbr>: +62 81 6688 697
-          </p>
-          <p>
-            <abbr title="Email">E</abbr>:
-            <a href="mailto:name@example.com">hellohwg@herewegift.com
-            </a>
-          </p>
-          <p>
-            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-          </p>
+        <div class="col-lg-6">
+          <h2>About HWG !!</h2>
+          <p>Kami adalah Pengusaha Mudah !!</p>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-8 mb-4">
-          <h3>Send us a Message</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Full Name:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Phone Number:</label>
-                <div class="element" id="forme_1">
-                  <input type="tel" class="form-control forme" id="phone_1" required data-validation-required-message="Please enter your phone number." style="margin-bottom: 5px; display: inline-block; width: 90%;">
-                </div>
-                
-                <button class="btn btn-success" type="button" id="btn-TambahTelpon">Add Phone Number</button>
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Email Address:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-              </div>
-            </div>
-            <div id="success"></div>
-            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-          </form>
-        </div>
+      <h2>Our Team</h2>
 
+      <div class="row">
+        <div class="col-lg-6 mb-6">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="p2.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Freeze Meeze Squeezy</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Team Creative</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">frismanda@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-6">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="p3.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Smoke Weed Everyday</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+              <p class="card-text">Memakanku akan membuatmu ketagihan bouyy</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">askatokbolong@gmail.com</a>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
 
-<script type="text/javascript">
-$(document).ready(function(){
 
- $("#btn-TambahTelpon").click(function(){
-
-  var total_element = $(".element").length;
- 
-  var lastid = $(".element:last").attr("id");
-  var split_id = lastid.split("_");
-  var nextindex = Number(split_id[1]) + 1;
-
-  var max = 5;
-  if(total_element < max ){
-   $(".element:last").after("<div class='element' id='forme_"+ nextindex +"'></div>");
- 
-   $("#forme_" + nextindex).append("<input type='text' style='margin-bottom: 5px; display: inline-block; width: 90%;' class='form-control' placeholder='Enter your skill' id='phone_"+ nextindex +"'>&nbsp;<button type='button' id='remove_" + nextindex + "' class='remove btn btn-danger'>X</button>");
- 
-  }
- 
- });
-
- $('.container').on('click','.remove',function(){
- 
-  var id = this.id;
-  var split_id = id.split("_");
-  var deleteindex = split_id[1];
-
-  $("#forme_" + deleteindex).remove();
-
- }); 
-});
-</script>
 </html>

@@ -71,6 +71,7 @@ text.inner-circle {
         </button>
       <div class="collapse navbar-collapse" id="navbarResponsive"></div>
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="beranda.html">Teras</a></li>
         <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
         <li class="nav-item"><a class="nav-link" href="portofolio.html">Portofolio</a></li>
         <li class="nav-item"><a class="nav-link" href="kontak.html">Call HWG</a></li>
@@ -85,7 +86,38 @@ text.inner-circle {
 		  
 		  <svg id="donut-chart"></svg>
 		</div>
+
+    <table class="table" id="tblOne">
+    <thead>
+      <tr>
+        <th>Nama Depan</th>
+        <th>Nama Belakang</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Abdul</td>
+        <td>Manjrid</td>
+        <td>abdu@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Mari</td>
+        <td>Wes</td>
+        <td>mari@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Dulo</td>
+        <td>Doli</td>
+        <td>Dulo@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
 	</div>
+
+  
+
+
 </body>
 <script type="text/javascript">
 // Seed data to populate the donut pie chart
@@ -217,5 +249,11 @@ function wrap(text, width) {
     }
   });
 }
+
+$(document).ready(function(){
+  $('#tblOne > tbody  > tr').each(function() {
+
+  });
+})
 </script>
 </html>
