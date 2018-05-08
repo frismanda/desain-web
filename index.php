@@ -14,9 +14,9 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
+<body style="background-image: url('bg.jpg'); background-size: cover; background-position: cover;">
 
-	  <div class="wrapper">
+	  <div class="wrapper" >
 	    <form class="form-signin">       
 	      <h2 class="form-signin-heading">Masuk Dong</h2>
 	      <input type="text" class="form-control" id="username" name="username" placeholder="Email Address" required="" autofocus="" />

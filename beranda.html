@@ -1,27 +1,29 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html>
 <head>
-	<title>Beranda nya Frismanda nih</title>
-	<!-- JS SOURCE -->
-	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="swal/sweetalert2.all.js"></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>
+  <title>Beranda nya Frismanda nih</title>
+  <!-- <meta charset="ISO-8859-1"> -->
+  <meta charset="UTF-8">
+  <!-- JS SOURCE -->
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="swal/sweetalert2.all.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js'></script>
 
-	<script type="text/javascript" src="chart/Chart.bundle.js"></script>
-	<script type="text/javascript" src="chart/Chart.js"></script>
+  <script type="text/javascript" src="chart/Chart.bundle.js"></script>
+  <script type="text/javascript" src="chart/Chart.js"></script>
 
-	<!-- CSS SOURCE -->
-	<link rel="stylesheet" href="css/bootstrap-grid.css">
-	<link rel="stylesheet" href="css/bootstrap-grid.css.map">
-	<link rel="stylesheet" href="css/bootstrap-reboot.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
+  <!-- CSS SOURCE -->
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css.map">
+  <link rel="stylesheet" href="css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
 
-	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <style type="text/css">
-	@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 
 * {
   font-family: Roboto;
@@ -58,12 +60,24 @@ text.inner-circle {
 }
 </style>
 <body>
-	<nav class="navbar navbar-light" style="background-color: #f7f2e7;">
-	  <center><a class="navbar-brand" href="#">
-	    <img src="logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
-	    <span style="padding-top: 50px; top: 10px; position: relative;">HereWeGift </span>
-	  </a> </center>
-	</nav>
+  <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #f7f2e7;">
+    <div class="container">
+       <a class="navbar-brand" href="#">
+        <img src="logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+        <span style="padding-top: 50px; top: 10px; position: relative;">HereWeGift </span>
+      </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive"></div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="portofolio.html">Portofolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="kontak.html">Call HWG</a></li>
+      </ul> 
+    </div>
+  </nav>
+
 
 	<div class="container judul-tengah">
 		<h1>HereWeGift Users Trend</h1>
